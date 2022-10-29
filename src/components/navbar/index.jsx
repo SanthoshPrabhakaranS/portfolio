@@ -68,7 +68,7 @@ const NavBar = () => {
             04. <NavSpan>Contact</NavSpan>
           </p>
         </a>
-        <a href="">
+        <a href="https://drive.google.com/file/d/1vwtyordel9_xPmSIMTSaimuHYFWwjXG-/view?usp=share_link">
           <Button onClick={() => setOpen(false)}>Resume</Button>
         </a>
       </Nav>
