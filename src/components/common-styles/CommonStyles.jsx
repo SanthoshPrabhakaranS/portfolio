@@ -17,7 +17,7 @@ export const SpanNumber = styled("span")(({ theme }) => ({
   fontWeight: "400"
 }));
 
-export const Button = styled("button")(({ theme }) => ({
+export const Button = styled("button")(({ theme, fs }) => ({
   border: "1px solid",
   color: theme.palette.primary.main,
   borderColor: theme.palette.primary.main,
@@ -26,10 +26,14 @@ export const Button = styled("button")(({ theme }) => ({
   borderRadius: "6px",
   cursor: "pointer",
   fontFamily: font.secondary,
-
+  fontSize: fs,
   "&:hover": {
     backgroundColor: "#64ffdb27",
     transition: ".5s all ease",
+  },
+  "& a": {
+    textDecoration: "none",
+    color: theme.palette.primary.main,
   },
 }));
 

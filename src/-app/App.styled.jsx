@@ -15,7 +15,7 @@ export const NameTip = styled(Box)(({ theme }) => ({
   justifyContent: "center",
   alignItems: "center",
   gap: "1rem",
-  bottom: "18%",
+  bottom: "15%",
   right: "-5%",
   transform: "rotate(90deg)",
   fontSize: ".8rem",
@@ -25,12 +25,14 @@ export const NameTip = styled(Box)(({ theme }) => ({
 }));
 
 export const Name = styled(Box)(({ theme }) => ({
+  "& p": {
+    letterSpacing: "2.5px",
+    fontWeight: "300",
+  },
   "& a": {
     textDecoration: "none",
     color: theme.palette.text.main,
     fontFamily: font.secondary,
-    fontWeight: "400",
-    letterSpacing: ".5px",
     "&:hover": {
       color: theme.palette.primary.main
     }

@@ -3,7 +3,7 @@ import { Box } from "@mui/material";
 import { font } from "../../fonts/fonts";
 
 export const Container = styled(Box)(({ theme }) => ({
-  height: "50vh",
+  height: "70vh",
   width: "100%",
   display: "flex",
   flexDirection: "column",
@@ -59,4 +59,10 @@ export const FooterIcons = styled(Box)(({ theme }) => ({
     color: theme.palette.primary.main,
     transition: ".3s all ease",
   },
+}));
+
+export const Message = styled(Box)(({ theme }) => ({
+  display: "flex",
+  flexDirection: "column",
+  gap: ".3rem",
 }));

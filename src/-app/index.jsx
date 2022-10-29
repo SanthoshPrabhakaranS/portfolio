@@ -34,7 +34,7 @@ function App() {
         as={motion.div}
         initial={{ opacity: 1 }}
         animate={{ opacity: 2 }}
-        transition={{ duration: 3 }}
+        transition={{ duration: 2 }}
       >
         <Logo
           as={motion.div}
@@ -49,7 +49,7 @@ function App() {
         as={motion.div}
         initial={{ y: -10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 3 }}
+        transition={{ duration: 2, delay: 2 }}
         onClick={closeHandler}
       >
         <Navbar />

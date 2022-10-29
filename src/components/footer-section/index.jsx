@@ -5,10 +5,15 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import {
   Body,
   Container,
+  Email,
   Footer,
   FooterIcons,
   Heading,
+  Mail,
+  Message,
+  Name,
 } from "./FooterSection.styled";
+import { Button } from "../common-styles/CommonStyles";
 
 const FooterSection = () => {
   return (
@@ -17,11 +22,15 @@ const FooterSection = () => {
       <Body>
         <p>Get In Touch</p>
         <p>
-          Although I'm not currently looking for any new opportunities, my inbox
-          is always open. Whether you have a question or just want to say hi,
+         My inbox is always open. Whether you have a question or just want to say hi,
           I'll try my best to get back to you!
         </p>
       </Body>
+      <Button fs="1.1rem">
+      <a href="https://mail.google.com/mail/u/2/#inbox?compose=CllgCJTGmjsVQLsDlgsCHxxQZzQDnVrLxLSsWGTDCZpmzTJmBXxLDCmpMBqBTZjLPwmkMjSkzNB">
+        Say Hello!
+          </a>
+      </Button>
       <Footer>
         <FooterIcons>
           <a href="https://github.com/SanthoshPrabhakaranS">
