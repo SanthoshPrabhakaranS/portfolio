@@ -9,7 +9,6 @@ export const Container = styled(Box)(({ theme }) => ({
   justifyContent: "center",
   alignItems: "Center",
   flexDirection: "column",
-  
 }));
 
 export const TextContainer = styled(Box)(({ theme }) => ({
