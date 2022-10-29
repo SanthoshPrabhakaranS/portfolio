@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <Container id="/">
         <TextContainer>
-          <p>Hi, my name is</p>
+          <p>Hi, my name is sandy</p>
           <p>Santhosh Prabhakaran.</p>
           <p>I build things for the web.</p>
           <p>
