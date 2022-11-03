@@ -3,7 +3,7 @@ import { Box } from "@mui/material";
 import { font } from "../../fonts/fonts";
 
 export const Container = styled(Box)(({ theme }) => ({
-  height: "70vh",
+  height: "100vh",
   width: "100%",
   display: "flex",
   flexDirection: "column",

@@ -79,6 +79,10 @@ export const ImgContainer = styled(Box)(({ theme }) => ({
   padding: ".5rem",
   position: "relative",
   cursor: "pointer",
+  [theme.breakpoints.down("md")]: {
+    width: "80%",
+    height: "70%",
+  },
   [theme.breakpoints.down("sm")]: {
     width: "70%",
     height: "260px",

@@ -16,7 +16,7 @@ export const NameTip = styled(Box)(({ theme }) => ({
   alignItems: "center",
   gap: "1rem",
   bottom: "15%",
-  right: "-5%",
+  right: "-6%",
   transform: "rotate(90deg)",
   fontSize: ".8rem",
   [theme.breakpoints.down("md")]: {

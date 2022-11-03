@@ -48,7 +48,6 @@ export const Container = styled(Box)(({ theme }) => ({
   },
   [theme.breakpoints.down("sm")]: {
     padding: "1rem",
-    height: "100vh",
 
     "& p:nth-of-type(4)": {
       width: "calc(100%)",

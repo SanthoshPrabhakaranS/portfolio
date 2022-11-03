@@ -3,7 +3,7 @@ import { Box } from "@mui/material";
 import { font } from "../../fonts/fonts";
 
 export const Container = styled(Box)(({ theme }) => ({
-  height: "70vh",
+  height: "100vh",
   width: "100%",
   color: theme.palette.text.main,
   display: "flex",
@@ -13,16 +13,13 @@ export const Container = styled(Box)(({ theme }) => ({
   gap: "2rem",
   padding: "1rem",
   paddingTop: "3rem",
-  [theme.breakpoints.down("md")]: {
-    height: "100vh",
-  },
 }));
 
 export const TextContainer = styled(Box)(({ theme }) => ({
-  width: "60rem",
-  height: "100%",
+  maxWidth: "60rem",
+  // height: "100%",
   display: "grid",
-  gridTemplateColumns: "1fr 1fr",
+  gridTemplateColumns: "1fr 1fr 1fr",
   gap: "1rem",
   margin: "0 auto",
   [theme.breakpoints.down("md")]: {
@@ -84,7 +81,7 @@ export const Footer = styled(Box)(({ theme }) => ({
   flexDirection: "row",
   alignItems: "center",
   gap: "1rem",
-  fontSize: ".8rem",
+  fontSize: ".75rem",
   fontFamily: font.secondary,
   color: theme.palette.text.dark,
 }));

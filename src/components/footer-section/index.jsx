@@ -5,13 +5,9 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import {
   Body,
   Container,
-  Email,
   Footer,
   FooterIcons,
   Heading,
-  Mail,
-  Message,
-  Name,
 } from "./FooterSection.styled";
 import { Button } from "../common-styles/CommonStyles";
 

@@ -9,7 +9,6 @@ export const Container = styled(Box)(({ theme }) => ({
   justifyContent: "center",
   alignItems: "center",
   [theme.breakpoints.down("md")]: {
-    height: "inherit",
     padding: "1rem",
   },
 }));
