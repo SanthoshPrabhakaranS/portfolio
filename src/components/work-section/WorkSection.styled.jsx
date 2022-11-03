@@ -15,7 +15,7 @@ export const Container = styled(Box)(({ theme }) => ({
 
 export const TextWrapper = styled(Box)(({ theme }) => ({
   width: "50rem",
-  minHeight: "23rem",
+  // height: "100vh",
   display: "flex",
   flexDirection: "column",
   padding: "1rem",

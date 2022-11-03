@@ -3,7 +3,7 @@ import { Box } from "@mui/material";
 import { font } from "../../fonts/fonts";
 
 export const Container = styled(Box)(({ theme }) => ({
-  height: "100vh",
+  minHeight: "100vh",
   width: "100%",
   display: "flex",
   flexDirection: "column",
@@ -47,6 +47,7 @@ export const Container = styled(Box)(({ theme }) => ({
     },
   },
   [theme.breakpoints.down("sm")]: {
+    minHeight: "110vh",
     padding: "1rem",
 
     "& p:nth-of-type(4)": {
