@@ -3,12 +3,13 @@ import { Box } from "@mui/material";
 import { font } from "../../fonts/fonts";
 
 export const Container = styled(Box)(({ theme }) => ({
-  minHeight: "100vh",
+  height: "100vh",
   width: "100%",
   display: "flex",
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",
+  padding: "1rem",
 
   "& p:nth-of-type(1)": {
     fontFamily: font.secondary,
@@ -40,16 +41,12 @@ export const Container = styled(Box)(({ theme }) => ({
     padding: "1rem",
   },
   [theme.breakpoints.down("md")]: {
-    padding: "2rem",
-
     "& p:nth-of-type(4)": {
       width: "calc(100%)",
     },
   },
   [theme.breakpoints.down("sm")]: {
-    minHeight: "110vh",
-    padding: "1rem",
-
+    height: "105vh",
     "& p:nth-of-type(4)": {
       width: "calc(100%)",
     },

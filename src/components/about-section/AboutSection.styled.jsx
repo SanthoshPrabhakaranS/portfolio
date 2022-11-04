@@ -9,6 +9,9 @@ export const Container = styled(Box)(({ theme }) => ({
   justifyContent: "center",
   alignItems: "Center",
   flexDirection: "column",
+  [theme.breakpoints.down("sm")]: {
+    paddingTop: "5.5rem"
+  }
 }));
 
 export const TextContainer = styled(Box)(({ theme }) => ({

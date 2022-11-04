@@ -15,11 +15,14 @@ export const Container = styled(Box)(({ theme }) => ({
 
 export const TextWrapper = styled(Box)(({ theme }) => ({
   width: "50rem",
-  // height: "100vh",
+  height: "25rem",
   display: "flex",
   flexDirection: "column",
   padding: "1rem",
   gap: "2rem",
+  [theme.breakpoints.down("md")]: {
+    height: "35rem",
+  },
 }));
 
 export const BodyWrapper = styled(Box)(({ theme }) => ({
