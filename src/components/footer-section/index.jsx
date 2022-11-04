@@ -5,6 +5,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import {
   Body,
   Container,
+  Credit,
   Footer,
   FooterIcons,
   Heading,
@@ -22,7 +23,7 @@ const FooterSection = () => {
           I'll try my best to get back to you!
         </p>
       </Body>
-      <Button fs="1.1rem">
+      <Button fs="0.9rem">
       <a href="https://mail.google.com/mail/u/2/#inbox?compose=CllgCJTGmjsVQLsDlgsCHxxQZzQDnVrLxLSsWGTDCZpmzTJmBXxLDCmpMBqBTZjLPwmkMjSkzNB">
         Say Hello!
           </a>
@@ -44,6 +45,7 @@ const FooterSection = () => {
           </a>
         </FooterIcons>
       </Footer>
+      <Credit>Built and developed by @santhosh</Credit>
     </Container>
   );
 };

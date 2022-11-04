@@ -66,3 +66,9 @@ export const Message = styled(Box)(({ theme }) => ({
   flexDirection: "column",
   gap: ".3rem",
 }));
+
+export const Credit = styled("p")(({ theme }) => ({
+  color: theme.palette.text.light,
+  fontFamily: font.secondary,
+  fontSize: ".7rem",
+}));

@@ -3,10 +3,13 @@ import { Box } from "@mui/material";
 import { font } from "../fonts/fonts";
 
 export const Container = styled(Box)(({ theme }) => ({
-  height: "100vh",
+  height: "100%",
   background: theme.palette.background.main,
   fontFamily: font.Primary,
   position: "relative",
+  display: "flex",
+  flexDirection: "column",
+  gap: "2rem"
 }));
 
 export const NameTip = styled(Box)(({ theme }) => ({

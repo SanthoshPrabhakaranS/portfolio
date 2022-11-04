@@ -10,7 +10,7 @@ export const Container = styled(Box)(({ theme }) => ({
   alignItems: "Center",
   flexDirection: "column",
   [theme.breakpoints.down("sm")]: {
-    paddingTop: "5.5rem"
+    paddingTop: "6rem"
   }
 }));
 

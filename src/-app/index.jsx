@@ -17,7 +17,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const closeHandler = () => {
     if (open) {
-      setOpen(false); 
+      setOpen(false);
     }
   };
 

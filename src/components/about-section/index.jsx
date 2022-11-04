@@ -22,7 +22,6 @@ import { Technologies } from "../common-components/Technologies";
 import { motion } from "framer-motion";
 
 const AboutSection = () => {
-
   return (
     <Container id="about">
       <TextContainer>
@@ -43,8 +42,7 @@ const AboutSection = () => {
             </p>
             <p>
               Fast-forward to today, and I've had the privilege of working as an
-              intern at an I a start-up, a huge corporation, and a student-led
-              design studio called{" "}
+              intern at an start-up and a student-led design studio called{" "}
               <SpanColor>Aequalis Software Solutions</SpanColor>, Where I learnt
               a lot. Then I joined as an React JS developer in an reputed agency
               called <SpanColor>Ionixx Technologies</SpanColor>. My main focus

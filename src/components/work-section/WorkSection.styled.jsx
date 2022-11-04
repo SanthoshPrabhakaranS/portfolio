@@ -11,6 +11,9 @@ export const Container = styled(Box)(({ theme }) => ({
   [theme.breakpoints.down("md")]: {
     padding: "1rem",
   },
+  [theme.breakpoints.down("sm")]: {
+    paddingTop: "10rem"
+  },
 }));
 
 export const TextWrapper = styled(Box)(({ theme }) => ({
