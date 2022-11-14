@@ -5,7 +5,7 @@ export const projectData = [
     body: "An React application using CRUD operations and Redux-toolkit for as an state manager",
     toolsOne: "Redux-toolkit",
     toolsTwo: "Material UI",
-    url: "https://santhoshprabhakarans.github.io/crud-application/"
+    url: "https://santhoshprabhakarans.github.io/crud-application/",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const projectData = [
     body: "An React shopping cart application using Context API as an state manager",
     toolsOne: "Context API",
     toolsTwo: "Material UI",
-    url: "https://santhoshprabhakarans.github.io/shopping-cart/"
+    url: "https://santhoshprabhakarans.github.io/shopping-cart/",
   },
   {
     id: 3,
@@ -21,13 +21,20 @@ export const projectData = [
     body: "An React instagram-clone application using Redux-toolkit as an state manager in a responsive manner",
     toolsOne: "Redux-toolkit",
     toolsTwo: "MUI styled-components",
-    url: "https://santhoshprabhakarans.github.io/insta-profile-clone/"
+    url: "https://santhoshprabhakarans.github.io/insta-profile-clone/",
   },
   {
     id: 4,
-    heading: "Hang man game",
+    heading: "Hang Man Game",
     body: "An React game application through dynamic rendering using Typescript",
     toolsOne: "TypeScript",
-    url: "https://santhoshprabhakarans.github.io/hang-man-game/"
+    url: "https://santhoshprabhakarans.github.io/hang-man-game/",
+  },
+  {
+    id: 5,
+    heading: "Crypto Tracker",
+    body: "An React application to track crypto currencies market changes using Rapid-API and SASS",
+    toolsOne: "SASS Rapid-API",
+    url: "https://santhoshprabhakarans.github.io/crypto-tracker/",
   },
 ];
